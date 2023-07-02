@@ -1,24 +1,5 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()local Sense = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Sirius/request/library/sense/source.lua'))()
 local Library = DarkraiX:Window("Darkrai X","","",Enum.KeyCode.RightControl);
---value
-_G.EspT = true
-_G.player = true
-_G.Names = true
-_G.boxes = true
-_G.Health = true
-_G.item = true
-_G.chams = true
-_G.Tracer = true
-_G.sckeleton = true
-_G.EspT2 = true
-_G.player2 = true
-_G.Names2 = true
-_G.boxes2 = true
-_G.Health2 = true
-_G.item2 = true
-_G.chams2 = true
-_G.Tracer2 = true
-_G.sckeleton2 = true
 
 --function
 function EspT()
@@ -43,7 +24,25 @@ Tab1:Toggle("Toggle",false,function(value)
     
 end)
 
-
+--value
+_G.EspT = true
+_G.player = true
+_G.Names = true
+_G.boxes = true
+_G.Health = true
+_G.item = true
+_G.chams = true
+_G.Tracer = true
+_G.sckeleton = true
+_G.EspT2 = true
+_G.player2 = true
+_G.Names2 = true
+_G.boxes2 = true
+_G.Health2 = true
+_G.item2 = true
+_G.chams2 = true
+_G.Tracer2 = true
+_G.sckeleton2 = true
 
 local ESP = {
 	Enabled = false,
