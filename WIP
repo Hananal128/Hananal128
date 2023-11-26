@@ -2,11 +2,6 @@ local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gami
 
 local Library = DarkraiX:Window("Venity X v0.1","","",Enum.KeyCode.RightControl);
 
---[[
-DarkraiX:Window(
-1 = Name Of Your Ui Library (string)
-2 = Game Name (You Can Keep This Empty To Get The Current Game Name!) (string)
-3 = A Logo If You Have One! (string)
-4 = Ui Library Toggle (I'll Not Prefer Touching It) (function)
-);
-]]
+main = Library:Tab("Main Tab")
+
+main:label("aaa")
